@@ -1,0 +1,12 @@
+{
+  "name": "flutter-architecture-blueprints",
+  "private": true,
+  "husky": {
+    "hooks": {
+      "pre-push": "make format-analyze"
+    }
+  },
+  "devDependencies": {
+    "husky": "^7.0.0"
+  }
+}
